@@ -42,7 +42,6 @@ module.exports = {
       }
     });
 
-    // Add indexes
     await queryInterface.addIndex('refresh_tokens', ['token']);
     await queryInterface.addIndex('refresh_tokens', ['user_id']);
   },
