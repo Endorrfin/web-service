@@ -9,6 +9,7 @@ Thumbs.db
 
 # Mac DS_Store Files
 .DS_Store
+*/.DS_Store
 
 # Large output files
 build/output/*
@@ -24,6 +25,7 @@ logs/
 *.log
 !example.log
 !logs/example.log
+
 
 
 

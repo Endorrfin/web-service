@@ -44,40 +44,31 @@ npm start               http://localhost:3001
 ⬛️ FILE STRUCTURE SERVER
 web-service/
 |__src/
-|	|
 |	|── services/
-|	|	|
 |	|	|── auth.service.js
 |	|	|── user.service.js
 |	|	|── jwt.service.js
 |	|	|── payment.service.js
 |	|	|── stripe.service.js
 |	|	|── subscription.service.js
-|	|	|── qr.service.js
-|	|	|── ...
 |	|
 |	|── controllers/
-|	|	|
 |	|	|── auth.controller.js
 |	|	|── user.controller.js
 |	|
 |	|── routes/
-|	|	|
 |	|	|── auth.routes.js
 |	|	|── user.routes.js
 |	|	|── payment.routes.js
 |	|	|── subscription.routes.js
 |	|	|── webhook.routes.js
 |	|	|── qr.routes.js
-|	|	|── ...
 |	|
 |	|── middleware/
-|	|	|
 |	|	|── auth.middleware.js
 |	|	|── validation.middleware.js
 |	|
 |	|── models/
-|	|	|
 |	|	|── refresh-token.models.js
 |	|	|── user.model.js
 |	|	|── credit.model.js
@@ -85,10 +76,8 @@ web-service/
 |	|	|── plan.model.js
 |	|	|── subscription.model.js
 |	|	|── qr-code.model.js
-|	|	|── ...
 |	|
 |── shared/
-|	|
 |	|── constants/
 |	|	|── user-roles.js
 |	|
@@ -100,12 +89,10 @@ web-service/
 |	|	|── logger.js
 |	|	|── response.js
 |	|	|── validator.js
-|	|	|── ...
 |	|
 |── tests/
 |	|	|── auth.test.js
 |	|	|── setup.js
-|	|	|── ...
 |	|
 |	|── app.js
 |	|── package.json
