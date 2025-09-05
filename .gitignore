@@ -1,0 +1,29 @@
+# IDE's project files
+.idea
+
+#windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# Mac DS_Store Files
+.DS_Store
+
+# Large output files
+build/output/*
+
+# machine-specific configuration files
+../.env
+config/dev-env.conf
+
+# Private Node Modules
+node_modules
+node_modules/
+logs/
+*.log
+!example.log
+!logs/example.log
+
+
+
